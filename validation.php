@@ -9,6 +9,9 @@
 		if (empty(trim($uname)) || empty(trim($password))) {
 			echo "Null submission";
 		}
+
+		//elseif block if we need to validate more..
+		
 		else{
 
 			//file open
